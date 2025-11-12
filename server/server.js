@@ -19,7 +19,7 @@ await connectDB()
 await connectCloudinary()
 
 // Allow multiple origins
-const allowedOrigins = ['http://localhost:5174', '']
+const allowedOrigins = ['http://localhost:5174', 'https://quick-delivery-z6ju.vercel.app']
 
 
 // Middleware configuration
